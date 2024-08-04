@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio | Davi Barroso</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="minhaFoto.jpeg" type="image/x-icon">
+</head>
+
+<body class="bg-zinc-900 ">
+    <header class="fixed top-0 left-0 w-full bg-zinc-800 text-white z-40 shadow-md shadow-blue-900 ">
+        <div class="flex items-center justify-between md:justify-around h-[40px] p-2">
+            <h1 class="font-bold text-xl">Davi Costa Barroso</h1>
+            <nav class="hidden md:block lg:block">
+                <ol class="flex space-x-8">
+                    <li><a href="#inicio" class="hover:text-gray-300">Inicio</a></li>
+                    <li><a href="#sobre" class="hover:text-gray-300 scroll-smooth">Sobre</a></li>
+                    <li><a href="#formacao" class="hover:text-gray-300">Formação</a></li>
+                    <li><a href="#experiencia" class="hover:text-gray-300">Experiência</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main class="flex flex-col w-full text-white text-gray-200 gap-y-5 md:gap-y-0 lg:gap-y-0">
+        <section
+            class="grid grid-cols-1 pt-16 md:pt-0 lg:pt-0 md:grid-cols-2 lg:grid-cols-2 z-10 w-full md:min-h-screen gap-x-4"
+            id="inicio">
+            <div class="flex justify-center items-center">
+                <img src="/minhaFoto.jpeg" class="rounded-full w-2/3 hover:scale-110 transition cursor-pointer ">
+            </div>
+            <div class="flex flex-col justify-center text-left gap-4 text-center md:text-left lg:text-left">
+                <div>
+                    <h1 class="text-5xl">Olá, eu sou o</h1>
+                    <h1 class="text-5xl text-blue-600">Davi Barroso</h1>
+                </div>
+                <h4>Desenvolvedor de software, formando em Engenharia de computação.</h4>
+                <div class="flex gap-4 items-center justify-center md:justify-start">
+                    <a href="https://www.linkedin.com/in/davi-barroso-a9a46621b/" target="_blank"
+                        class="text-[38px] hover:scale-110">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Davi-Costa-Barroso" target="_blank" class="text-[38px] hover:scale-110">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 w-full md:min-h-screen items-center max-w-4xl mx-auto relative" id="sobre">
+            <svg class="absolute top-5 -left-52 opacity-10 w-40 h-40 z-4" xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff" viewBox="0 0 256 256">
+                <path
+                    d="M93.31,70,28,128l65.27,58a8,8,0,1,1-10.62,12l-72-64a8,8,0,0,1,0-12l72-64A8,8,0,1,1,93.31,70Zm152,52-72-64a8,8,0,0,0-10.62,12L228,128l-65.27,58a8,8,0,1,0,10.62,12l72-64a8,8,0,0,0,0-12Z">
+                </path>
+            </svg>
+            <svg class="absolute bottom-0 -right-52 opacity-10 w-40 h-40 z-4" xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff" viewBox="0 0 256 256">
+                <path
+                    d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z">
+                </path>
+            </svg>
+            <div class="flex flex-col mx-auto max-w-4xl gap-4 z-10">
+                <h1 class="text-4xl text-center">
+                    Sobre mim
+                </h1>
+                <h4 class="text-center text-xl text-gray-200 ">
+                    Desenvolvedor web fullstack com experiência em React.js, JavaScript, TypeScript, Vue.js, Node.js,
+                    MongoDB, Postgres. Técnico em Manutenção e Suporte em informática (IFPA), formando em Engenharia de
+                    Computação (UFPA).
+                </h4>
+
+                <div class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-6 mx-auto gap-4">
+                    <img src="https://skillicons.dev/icons?i=js"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="JavaScript">
+                    <img src="https://skillicons.dev/icons?i=ts"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="TypeScript">
+                    <img src="https://skillicons.dev/icons?i=html"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="HTML">
+                    <img src="https://skillicons.dev/icons?i=css"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="CSS">
+                    <img src="https://skillicons.dev/icons?i=vue"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="Vue.js">
+                    <img src="https://skillicons.dev/icons?i=react"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="React">
+
+                    <img src="https://skillicons.dev/icons?i=nodejs"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="Node.js">
+                    <img src="https://skillicons.dev/icons?i=mongodb"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="MongoDB">
+                    <img src="https://skillicons.dev/icons?i=java"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer  rounded-2xl shadow-md shadow-blue-900"
+                        alt="Java">
+                    <img src="https://skillicons.dev/icons?i=py"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="Python">
+                    <img src="https://skillicons.dev/icons?i=c"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="C">
+                    <img src="https://skillicons.dev/icons?i=arduino"
+                        class="h-[60px] hover:scale-110 transition cursor-pointer rounded-2xl shadow-md shadow-blue-900"
+                        alt="Arduino">
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 w-full md:min-h-screen items-center max-w-4xl mx-auto relative" id="formacao">
+
+            <svg class="absolute top-5 -left-52 opacity-10 w-40 h-40 z-4" xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff" viewBox="0 0 256 256">
+                <path
+                    d="M93.31,70,28,128l65.27,58a8,8,0,1,1-10.62,12l-72-64a8,8,0,0,1,0-12l72-64A8,8,0,1,1,93.31,70Zm152,52-72-64a8,8,0,0,0-10.62,12L228,128l-65.27,58a8,8,0,1,0,10.62,12l72-64a8,8,0,0,0,0-12Z">
+                </path>
+            </svg>
+            <svg class="absolute bottom-0 -right-52 opacity-10 w-40 h-40 z-4" xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff" viewBox="0 0 256 256">
+                <path
+                    d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z">
+                </path>
+            </svg>
+
+            <div class="flex flex-col mx-auto gap-y-8 ">
+                <h1 class="text-4xl text-center ">
+                    Formação Acadêmica
+                </h1>
+                <div class="grid grid-cols-1 text-gray-200 gap-4">
+                    <div class="flex flex-col border border-gray-500 rounded-md bg-zinc-800 p-2">
+                        <div class="space-y-4">
+                            <div>
+                                <h1 class="">Universidade Federal do Pará (UFPA)</h1>
+                                <h2 class="text-lg font-semibold">
+                                    Engenharia de Computação
+                                </h2>
+                                <p class="text-gray-500">2020 - Atualmente</p>
+                            </div>
+
+                            <p class="text-justify">
+                                Média geral: 9,98. Monitorias em: Programação, Pré-Cálculo e Cálculo 3.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col border border-gray-500 rounded-md bg-zinc-800 p-2">
+                        <div class="space-y-4 ">
+                            <div>
+                                <h1 class="">Instituto Federal do Pará (IFPA)</h1>
+                                <h2 class="text-lg font-semibold">
+                                    Técnico integrado, Manutenção e Suporte em informática
+                                </h2>
+                                <p class="text-gray-500">2016 - 2019</p>
+                            </div>
+                            <p class="text-justify">
+                                Projeto Integrador: aplicativo organizador de jogos estudantis (OJE), criado para
+                                auxiliar na organização dos jogos estudantis do IFPA e preservar o meio ambiente
+                                economizando os materias de anotações dos jogos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 w-full md:min-h-screen items-center max-w-4xl mx-auto relative"
+            id="experiencia">
+            <svg class="absolute top-5 -left-52 opacity-10 w-40 h-40 z-4" xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff" viewBox="0 0 256 256">
+                <path
+                    d="M93.31,70,28,128l65.27,58a8,8,0,1,1-10.62,12l-72-64a8,8,0,0,1,0-12l72-64A8,8,0,1,1,93.31,70Zm152,52-72-64a8,8,0,0,0-10.62,12L228,128l-65.27,58a8,8,0,1,0,10.62,12l72-64a8,8,0,0,0,0-12Z">
+                </path>
+            </svg>
+            <svg class="absolute bottom-0 -right-52 opacity-10 w-40 h-40 z-4" xmlns="http://www.w3.org/2000/svg"
+                fill="#ffffff" viewBox="0 0 256 256">
+                <path
+                    d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z">
+                </path>
+            </svg>
+
+            <div class="flex flex-col w-full gap-y-8">
+                <h1 class="text-4xl text-center ">
+                    Experiência
+                </h1>
+                <div class="grid grid-cols-1 text-gray-200 gap-4 ">
+                    <div class="flex flex-col border border-gray-500 rounded-md bg-zinc-800 p-2">
+                        <div class="space-y-4 ">
+                            <div>
+                                <h1 class="">Robotax</h1>
+                                <div class="my-2">
+                                    <h2 class="text-lg font-semibold">
+                                        Freelancer como desenvolvedor web fullstack
+                                    </h2>
+                                    <p class="text-gray-500">jul de 2024 - atualmente · 1 mês</p>
+                                </div>
+
+                                <div class="my-2">
+                                    <h2 class="text-lg font-semibold">
+                                        Estágio como desenvolvedor web fullstack
+                                    </h2>
+                                    <p class="text-gray-500">jan de 2024 - jul de 2024 · 6 meses</p>
+                                </div>
+
+                            </div>
+                            <p class="text-justify">
+                                Especializado em Reacjs, Typescript, Nodejs, Nestjs, Postgres e mongoDB.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col border border-gray-500 rounded-md bg-zinc-800 p-2">
+                        <div class="space-y-4 ">
+                            <div>
+                                <h1 class="">Ashita Software</h1>
+                                <h2 class="text-lg font-semibold">
+                                    Freelancer como desenvolvedor web fullstack
+                                </h2>
+                                <p class="text-gray-500">mar de 2024 - ago de 2024 · 5 meses</p>
+                            </div>
+                            <p class="text-justify">
+                                Especializado em Vuejs, Javascript, Nodejs, Express e mongoDB.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col border border-gray-500 rounded-md bg-zinc-800 p-2">
+                        <div class="space-y-4 ">
+                            <div>
+                                <h1 class="">Instituto Federal do Pará (IFPA)</h1>
+                                <h2 class="text-lg font-semibold">
+                                    Estágio como técnico em manutenção de informática
+                                </h2>
+                                <p class="text-gray-500">jan de 2019 - mai de 2019 · 5 meses</p>
+                            </div>
+                            <p class="text-justify">
+                                Realizei manutenção corretiva e preventiva de computadores e equipamentos de
+                                informática.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
